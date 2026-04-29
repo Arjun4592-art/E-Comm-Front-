@@ -1,11 +1,11 @@
 import React from 'react'
 import MainNav from './MainNav'
-import TopNav from './TopNav'
+// import TopNav from './TopNav'
 
 const Navbar = () => {
   return (
     <React.Fragment>
-      <TopNav />
+      {/* <TopNav /> */}
       <MainNav />
     </React.Fragment>
   )
