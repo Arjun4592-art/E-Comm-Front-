@@ -6,7 +6,7 @@ interface navItem {
   name: string
   path: string
 }
-const Navbar = () => {
+const MainNav = () => {
   const navItems: navItem[] = [
     { id: 1, name: 'Home', path: '/' },
     { id: 2, name: 'Collections', path: '/about' },
@@ -42,4 +42,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default MainNav
